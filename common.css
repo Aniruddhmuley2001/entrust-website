@@ -1,0 +1,52 @@
+.entrust-white {
+    color: #F8F4E3;
+}
+
+.entrust-orange {
+    color: #EA8C55;
+}
+
+.entrust-purple {
+    color: #0D0221;
+}
+
+.entrust-light-blue {
+    color: #26408B;
+}
+
+.entrust-white-bg {
+    background-color: #F8F4E3;
+}
+
+.entrust-orange-bg {
+    background-color: #EA8C55;
+}
+
+.entrust-purple-bg {
+    background-color: #0D0221;
+}
+
+.entrust-light-blue-bg {
+    background-color: #26408B;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+
+/* Font styles */
+.heading {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.content {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Padding */
+.pd-48 {
+    padding: 48px;
+}
