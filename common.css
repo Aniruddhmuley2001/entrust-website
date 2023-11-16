@@ -41,12 +41,36 @@
     font-weight: 600;
 }
 
+.sub-heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
 .content {
     font-size: 18px;
     font-weight: 600;
 }
 
+
 /* Padding */
 .pd-48 {
     padding: 48px;
+}
+
+
+/* Text and list decoration */
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.no-list-decoration {
+    list-style-type: none;
+}
+
+#pills-tabContent {
+    padding: 1.5rem 0rem;
+}
+
+.nav-item .active {
+    background-color: #0D0221 !important;
 }

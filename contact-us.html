@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Entrust, Entrust Group, Entrust Group Dubai, ">
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Contact Us - Entrust</title>
+</head>
+
+<body class="entrust-white-bg">
+    <!-- Background Carousel -->
+    <section>
+        <div class="container-carousal">
+            <div class="outer">
+                <div class="navbar-wrapper">
+                    <nav class="navbar fixed-top">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <img src="./assets/logo-white-2.svg" alt="Entrust Logo" width="100px" height="48px" class="d-inline-block align-text-top">
+                          </a>
+                          <div class="d-flex">
+                            <button id="menu-btn" class="entrust-white-bg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">&#9776; Menu</button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header entrust-white-bg">
+                                  <h5 class="offcanvas-title sub-heading" id="offcanvasExampleLabel">Menu</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body entrust-white-bg">
+                                  <ul class="content no-list-decoration">
+                                    <li><a class="entrust-purple no-text-decoration" href="./index.html">Home</a></li><br>
+                                    <li><a class="entrust-purple no-text-decoration" href="./about.html">About Us</a></li><br>
+                                    <li><a class="entrust-purple no-text-decoration" href="#">Products</a></li><br>
+                                    <li><a class="entrust-purple no-text-decoration" href="#">Services</a></li><br>
+                                    <li><a class="entrust-purple no-text-decoration" href="#">Careers</a></li><br>
+                                    <li><a class="entrust-purple no-text-decoration" href="./contact-us.html">Contact Us</a></li><br>
+                                  </ul>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="details">
+                    <h1 class="entrust-white heading">Delivering trust to industries that run the world!</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-align">
+
+        <p class="heading text-center entrust-purple">Contact Us</p>
+        
+        <!-- Needs attention -->
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="iframe-embed-wrapper iframe-embed-responsive-16by9">
+                    <iframe class="iframe-embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.392970174174!2d55.29799622508818!3d25.1562056277374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f688c5516ea0f%3A0x44800f32689f57e2!2sThe%20Meydan%20Hotel!5e0!3m2!1sen!2sin!4v1699423701821!5m2!1sen!2sin">
+                    </iframe>
+                </div>
+              </div>
+              <div class="col white-bg pd-48">
+                <div class="content entrust-light-blue">
+                    <p>ENTRUST INTERNATIONAL L.L.C-FZ <br>
+                        (UAE representative for Vira Industries)</p>
+                    <p>Business Center 1, M Floor, The Meydan Hotel, <br>
+                        Nad Al Sheba, Dubai, U.A.E</p>
+                    <p>Email: info@entrustintl.com <br>
+                        Mob: +971 54 54 27 945</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="entrust-purple-bg content-align entrust-white">
+        <div class="row">
+            <div class="col align-middle">
+                <img src="./assets/logo-white.svg" width="193px" height="62px">
+            </div>
+            <div class="col text-end align-middle">
+                <img src="./assets/icons8-linkedin-50.png">
+                <img src="./assets/icons8-email-50.png">
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="sub-heading">
+                <a href="" class="entrust-white no-text-decoration">Home</a> | 
+                <a href="" class="entrust-white no-text-decoration">About</a> |
+                <a href="" class="entrust-white no-text-decoration">Offerings</a> |
+                <a href="" class="entrust-white no-text-decoration">People</a> |
+                <a href="" class="entrust-white no-text-decoration">Contact</a> 
+            </div>
+        </div>
+        <br>
+
+        <div class="row content">
+            <div class="col">
+                <a href="" class="entrust-white no-text-decoration">Privacy Notice</a> | 
+                <a href="" class="entrust-white no-text-decoration">Policies</a> 
+            </div>
+            <div class="col text-end">
+                © 2023 Entrust Group All Rights Reserved.
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const nav = document.querySelector('nav');
+        window.addEventListener("scroll", function(){
+            if(document.documentElement.scrollTop > 10) {
+                nav.classList.add("sticky")
+            }
+            else {
+                nav.classList.remove("sticky")
+            }
+        })
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
