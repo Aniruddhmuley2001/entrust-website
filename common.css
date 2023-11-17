@@ -52,9 +52,15 @@
 }
 
 
-/* Padding */
+/* Padding and Margin */
 .pd-48 {
     padding: 48px;
+}
+.mrg24-B {
+    margin-bottom: 24px;
+}
+.mrg16-B {
+    margin-bottom: 16px;
 }
 
 

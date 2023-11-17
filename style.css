@@ -74,8 +74,18 @@ nav.sticky {
   }
 }
 
-.container-static-img {
+.container-static-img-about-us {
   background-image: url(./assets/about-us-bg.svg);
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container-static-img-services {
+  background-image: url(./assets/services-bg.svg);
   position: relative;
   left: 0;
   top: 0;
@@ -113,6 +123,12 @@ nav.sticky {
   color: #F8F4E3 !important;
 }
 
+.content-justify {
+  display: flex;
+  justify-content: center;
+}
+
+
 /* For Maps Frame */
 
 .iframe-embed {
@@ -124,12 +140,22 @@ nav.sticky {
   width: 100%;
   border: 0;
 }
+
 .iframe-embed-wrapper {
   position: relative;
   display: block;
   padding: 0;
   overflow: hidden;
 }
+
 .iframe-embed-responsive-16by9 {
   padding-bottom: 56.25%;
+}
+
+
+/* Border */
+
+.border-box {
+  border: #0D0221 10px solid;
+  border-radius: 10px;
 }
