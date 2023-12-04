@@ -61,16 +61,13 @@ nav.sticky {
 @keyframes animate {
   0%,
   100% {
-    background-image: url("https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    background-image: url("./assets/home-bg-1.jpg");
   }
-  25% {
-    background-image: url("https://images.unsplash.com/photo-1591019052241-e4d95a5dc3fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  33.33% {
+    background-image: url("./assets/home-bg-2.jpg");
   }
-  50% {
-    background-image: url("https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
-  }
-  75% {
-    background-image: url("https://images.unsplash.com/photo-1517430554953-a5ba4678fe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  66.66% {
+    background-image: url("./assets/home-bg-3.jpg");
   }
 }
 
@@ -86,6 +83,26 @@ nav.sticky {
 
 .container-static-img-services {
   background-image: url(./assets/services-bg.svg);
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container-static-img-careers {
+  background-image: url(./assets/careers-bg.svg);
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.container-static-img-contact-us {
+  background-image: url(./assets/contact-us-bg.jpg);
   position: relative;
   left: 0;
   top: 0;
@@ -158,4 +175,40 @@ nav.sticky {
 .border-box {
   border: #0D0221 10px solid;
   border-radius: 10px;
+}
+
+
+/* Accordian styling */
+.accordion-section {
+  background-color: #0D0221;
+  color: #F8F4E3;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /* font-size: 15px; */
+  transition: 0.4s;
+}
+
+/* .active, .accordion-section:hover {
+  background-color: #26408B; 
+} */
+
+.accordion-section:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  /* font-size: 13px; */
+  color: #F8F4E3;
+  float: right;
+  margin-left: 1rem;
+}
+
+.panel {
+  padding: 1rem 1rem;
+  display: none;
+  background-color: #F8F4E3;
+  color: #26408B;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
